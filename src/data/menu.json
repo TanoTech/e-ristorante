@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "Carbonara",
-    "image": "/assets/images/carbonara.jpg",
+    "image": "/assets/imgs/caronara.png",
     "price": "7.99",
     "description": "Pastasciutta fatta con guanciale, pecorino, uova, sale e pepe.",
     "comments": [
@@ -25,7 +25,7 @@
   {
     "id": 1,
     "name": "Amatriciana",
-    "image": "/assets/images/amatriciana.jpg",
+    "image": "/assets/imgs/matriciana.png",
     "price": "6.99",
     "description": "Pastasciutta fatta con guanciale, pecorino, polpa di pomodoro, sale e pepe.",
     "comments": [
@@ -41,7 +41,7 @@
   {
     "id": 2,
     "name": "Cacio & Pepe",
-    "image": "/assets/images/cacioepepe.jpg",
+    "image": "/assets/imgs/cacioepepe.png",
     "price": "7.99",
     "description": "Pastasciutta fatta con Pecorino, sale, pepe e Parmigiano Reggiano.",
     "comments": [
@@ -64,7 +64,7 @@
   {
     "id": 3,
     "name": "Gricia",
-    "image": "/assets/images/gricia.jpg",
+    "image": "/assets/imgs/gricia.png",
     "price": "8.99",
     "description": "Pastasciutta fatta con guanciale, pecorino, sale e pepe.",
     "comments": [
@@ -94,7 +94,7 @@
   {
     "id": 4,
     "name": "Scogliera",
-    "image": "/assets/images/scogliera.jpg",
+    "image": "/assets/imgs/alloscoglio.png",
     "price": "7.99",
     "description": "Pastasciutta fatta con crostacei e frutti di mare",
     "comments": [
