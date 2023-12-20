@@ -11,7 +11,6 @@ class Home extends React.Component {
                 <Row className='justify-content-center'>
                     <Col md={6}>
                         <Carousel className='mt-4' onSlid={(incomingSlideIndex) => {
-                            console.log(incomingSlideIndex)
                             this.setState({piattoSelezionato: menu[incomingSlideIndex],
                             });
                         }}>
