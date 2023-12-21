@@ -1,0 +1,27 @@
+.formBg {
+    background-image: url('../../public/assets/imgs/formPrenotazioni.png');
+    background-size: cover;
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    color: white;
+    div {
+        padding: 0.2rem;
+    }
+    .form-check {
+        margin-left: 1.5rem;
+    }
+
+    .formOpacity {
+        background-color: rgba(0, 0, 0, 0.536);
+        text-transform: capitalize;
+    }
+
+    button {
+        margin-top: 1rem;
+        
+    }
+    
+}
+
+

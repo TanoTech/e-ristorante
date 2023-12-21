@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Container, Form, Button, Alert, FormGroup, FormLabel, FormSelect, FormCheck, FormControl } from "react-bootstrap";
+import './FormPrenotazioni.css'
 
 /* Quali campi usiamo per la prenotazione=
 1 - name: string (obbligatorio)
@@ -63,9 +64,9 @@ class FormPrenotazioni extends React.Component {
 
     render() {
         return (
-            <Container className="d-flex"  >
+            <Container className="d-flex justify-content-center formBg" >
                 <Row>
-                    <Col md={6}>
+                    <Col md={12} className="formOpacity">
                         <h2>Modulo prenotazione</h2>
                         {/* this.state.showAlert === true && (
                             <Alert variant='info'>Prenotazione salvata!</Alert> (questo fa il rendering nell' html, se true spunta, se false non c'è */}
@@ -143,10 +144,6 @@ class FormPrenotazioni extends React.Component {
                         </Form>
                     </Col>
                 </Row>
-                <Row className="container">
-                   <img className='img-fluid' src="/assets/imgs/formPrenotazioni.png" alt="tavolo ristorante apparecchiato"/>
-                </Row>
-
             </Container >
         )
     }
